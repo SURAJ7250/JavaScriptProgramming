@@ -41,31 +41,64 @@
 //   console.log("year is not leap year");
 // }
   
-let max=7;
-let min=1;
- let checknum=Math.floor(Math.random() * (max - min + 1) + min);
- console.log(checknum);
+// let max=7;
+// let min=1;
+//  let checknum=Math.floor(Math.random() * (max - min + 1) + min);
+//  console.log(checknum);
+// switch(checknum)
+// {
+//   case 1:
+//     console.log("TODAY is-MONDAY");
+//     break;
+//   case 2:
+//     console.log("TODAY is-TUESDAY");
+//     break;
+//   case 3:
+//     console.log("TODAY is-WEDNESDAY");
+//     break;
+//   case 4:
+//     console.log("TODAY is-THURSDAY");
+//     break;
+//   case 5:
+//     console.log("TODAY isFRIDAY");
+//     break;
+//   case 6:
+//     console.log("TODAY is-SATURDAY");
+//     break;
+//   case 7:
+//     console.log("TODAY is-SUNDAY");
+//     break;
+// }
+
+let checknum=Math.floor(Math.random()*10)+1;
+console.log(checknum);
 switch(checknum)
 {
   case 1:
-    console.log("TODAY is-MONDAY");
+    console.log("number is-ONE");
     break;
   case 2:
-    console.log("TODAY is-TUESDAY");
+    console.log("number is-TWO");
     break;
   case 3:
-    console.log("TODAY is-WEDNESDAY");
+    console.log("number is-THREE");
     break;
   case 4:
-    console.log("TODAY is-THURSDAY");
+    console.log("number is-FOUR");
     break;
   case 5:
-    console.log("TODAY isFRIDAY");
+    console.log("number is-FIVE");
     break;
   case 6:
-    console.log("TODAY is-SATURDAY");
+    console.log("number is-SIX");
     break;
   case 7:
-    console.log("TODAY is-SUNDAY");
+    console.log("number is-SEVEN");
+    break;
+  case 8:
+    console.log("number is-EIGHT");
+    break;
+  case 9:
+    console.log("number is-NINE");
     break;
 }
